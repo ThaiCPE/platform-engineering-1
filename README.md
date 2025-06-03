@@ -69,8 +69,8 @@ pipeline_templates/
 
       ![image](https://github.com/user-attachments/assets/0476cf5c-b73f-4bb8-8aa8-510a5ce73c7a)
 
-    * เลือก Branch master หรือ main and the path as: /azure_pipeline.yaml. Click on the continue button
-    * Replace the input parameter values for the mandatory fields in azure_pipeline.yaml to your needs:
+    * เลือก Branch master หรือ main และ Path: /azure_pipeline.yaml > Click ปุ่ม Continue
+    * ต้องเปลี่ยนค่า Parameter ใน azure_pipeline.yaml ก่อนดังนี้:
         ```
         serviceConnectionName: Azure DevOps Service Connection name.
         awsRegion: Default region for AWS.
