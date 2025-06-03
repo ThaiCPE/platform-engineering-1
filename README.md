@@ -6,7 +6,7 @@ Pattern นี้สามารถขยายเพิ่มเติมได
 - AWS Account   
   https://thaicpe.com/threads/1842
 - Amazon EKS Cluster พร้อม Node Instance Role เพื่อ Pull Image จาก ECR   
-  https://www.youtube.com/watch?v=34bbjxPrhTM
+  https://www.youtube.com/watch?v=RRCrY12VY_s
 - IAM User Account ที่มีสิทธิ์เข้าถึง Amazon EKS Cluster
 - Azure DevOps Account
 - AWS Toolkit สำหรับ Azure DevOps ที่ติดตั้งใน Azure DevOps หรือบน On-premises Azure DevOps Server
