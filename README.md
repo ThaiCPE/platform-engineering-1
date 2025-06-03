@@ -1,14 +1,14 @@
-# Deploy Kubernetes resources to Amazon EKS using Azure DevOps
-This pattern aims to provide guidance on how to deploy a containerized application to Amazon EKS cluster from Azure DevOps using Helm chart. 
-The pattern can be further extended by modifying the pipeline template shared here to use the Azure pipelines service connection for AWS in order to query and use data from AWS Cloud.
+# Deploy Kubernetes Resource ไปยัง Amazon EKS โดยใช้ Azure DevOps
+Pattern นี้มีจุดประสงค์เพื่อ Guide วิธีการ Deploy App แบบ Container ไปยัง Amazon EKS Cluster จาก Azure DevOps โดยใช้ Helm Chart 
+Pattern นี้สามารถขยายเพิ่มเติมได้โดยการปรับแต่ง Pipeline Template นี้ เพื่อใช้ Azure Pipeline Service Connection สำหรับ AWS ในการ Query และใช้ข้อมูลจาก AWS Cloud
 
-## Prerequisites
+## สิ่งที่ต้องเตรียมไว้ก่อน
 - AWS Account
-- Amazon EKS Cluster with node instance role to pull content from ECR
-- IAM user account with access to Amazon EKS Cluster
-- Azure DevOps account
-- AWS Toolkit for Azure DevOps installed in Azure DevOps or on an on-premises Azure DevOps server
-- Application to be deployed (A sample web app provided in this guide)
+- Amazon EKS Cluster พร้อม Node Instance Role เพื่อ Pull Image จาก ECR
+- IAM User Account ที่มีสิทธิ์เข้าถึง Amazon EKS Cluster
+- Azure DevOps Account
+- AWS Toolkit สำหรับ Azure DevOps ที่ติดตั้งใน Azure DevOps หรือบน On-premises Azure DevOps Server
+- App ที่จะ Deploy (มีตัวอย่าง Web App ใน Guide นี้)
 
 ## Get Started
 
