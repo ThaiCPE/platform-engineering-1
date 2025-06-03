@@ -58,9 +58,12 @@ pipeline_templates/
     
     ![image](https://github.com/user-attachments/assets/66bfd608-da28-4f9f-adff-68feccb27c88)
 
-2. **Setup a New pipeline in your Azure DevOps**
-    * Go to Pipelines, and then select New pipeline.
-    * Do the steps of the wizard by first selecting Azure repos git (YAML) as the location of your source code.
+2. **ตั้งค่า Pipeline ใหม่ใน Azure DevOps**
+    * ไปที่ Pipelines > Create Pipeline
+    * ทำตามขั้นตอนของ Wizard โดยเลือก Azure Repos Git (YAML) as the location of your source code.
+
+      ![image](https://github.com/user-attachments/assets/a3068826-606a-4840-b9dc-dfeeb9f6f093)
+
     * When you see the list of repositories, select your repository.
     * Select Existing Azure pipelines YAML file in the configure your pipeline section
     * Select the branch as master or main and the path as: /azure_pipeline.yaml. Click on the continue button
