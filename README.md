@@ -56,7 +56,7 @@ pipeline_templates/
     * Copy ตัวอย่าง Pipeline ที่อ้างอิง Pipeline Template
         - [azure_pipeline.yaml](./azure_pipeline.yaml) File
     
-    ![image](https://github.com/user-attachments/assets/66bfd608-da28-4f9f-adff-68feccb27c88)
+    ![image](https://github.com/user-attachments/assets/75877316-29e9-4941-85f2-d92a8940f80b)
 
 2. **ตั้งค่า Pipeline ใหม่ใน Azure DevOps**
     * ไปที่ Pipelines > Create Pipeline
