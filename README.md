@@ -4,7 +4,9 @@ Pattern นี้สามารถขยายเพิ่มเติมได
 
 ## สิ่งที่ต้องเตรียมไว้ก่อน
 - AWS Account
+  https://thaicpe.com/threads/1842
 - Amazon EKS Cluster พร้อม Node Instance Role เพื่อ Pull Image จาก ECR
+  https://www.youtube.com/watch?v=34bbjxPrhTM
 - IAM User Account ที่มีสิทธิ์เข้าถึง Amazon EKS Cluster
 - Azure DevOps Account
 - AWS Toolkit สำหรับ Azure DevOps ที่ติดตั้งใน Azure DevOps หรือบน On-premises Azure DevOps Server
