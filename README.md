@@ -3,7 +3,7 @@ Pattern นี้มีจุดประสงค์เพื่อ Guide ว�
 Pattern นี้สามารถขยายเพิ่มเติมได้โดยการปรับแต่ง Pipeline Template นี้ เพื่อใช้ Azure Pipeline Service Connection สำหรับ AWS ในการ Query และใช้ข้อมูลจาก AWS Cloud
 
 ## สิ่งที่ต้องเตรียมไว้ก่อน
-- AWS Account
+- AWS Account 
   https://thaicpe.com/threads/1842
 - Amazon EKS Cluster พร้อม Node Instance Role เพื่อ Pull Image จาก ECR
   https://www.youtube.com/watch?v=34bbjxPrhTM
