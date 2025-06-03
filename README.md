@@ -48,15 +48,16 @@ pipeline_templates/
 ├─ main_template.yaml
 ```
 
-## How to setup the pipeline template
-To use the pipeline template, follow this procedure:
-1. **Copy the following contents from this repo to your own Azure DevOps repo**
-    * Copy the pipeline templates folder as-is
-        - [pipeline_templates](./pipeline_templates/) folder (including contents in sub-folders)
-    * Copy the sample pipeline that refers the pipeline template
-        - [azure_pipeline.yaml](./azure_pipeline.yaml) file
+## วิธีการตั้งค่า Pipeline Template
+เพื่อใช้ Pipeline Template ทำตามขั้นตอนนี้:
+1. **Copy File ต่อไปนี้จาก Repo นี้ ไปยัง Azure DevOps Repo**
+    * Copy Pipeline Templates Folder
+        - [pipeline_templates](./pipeline_templates/) Folder (รวม File ใน Sub-folder)
+    * Copy ตัวอย่าง Pipeline ที่อ้างอิง Pipeline Template
+        - [azure_pipeline.yaml](./azure_pipeline.yaml) File
     
-    Here is an example to show the usage - [azure_pipeline.yaml](./azure_pipeline.yaml)
+![image](https://github.com/user-attachments/assets/be712b28-c81e-4827-85b5-6e3615e01021)
+
 2. **Setup a New pipeline in your Azure DevOps**
     * Go to Pipelines, and then select New pipeline.
     * Do the steps of the wizard by first selecting Azure repos git (YAML) as the location of your source code.
