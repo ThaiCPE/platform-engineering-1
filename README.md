@@ -62,10 +62,13 @@ pipeline_templates/
     * ไปที่ Pipelines > Create Pipeline
     * ทำตามขั้นตอนของ Wizard โดยเลือก Azure Repos Git (YAML) as the location of your source code.
 
-      ![image](https://github.com/user-attachments/assets/a3068826-606a-4840-b9dc-dfeeb9f6f093)
+      ![image](https://github.com/user-attachments/assets/ea41da05-545a-4005-b1a5-66285e50844a)
 
-    * When you see the list of repositories, select your repository.
-    * Select Existing Azure pipelines YAML file in the configure your pipeline section
+    * เมื่อเห็น List ของ Repos ให้เลือก Repo ข้อ 1.
+    * เลือก Existing Azure pipelines YAML file ในส่วน Configure your pipeline
+
+      ![image](https://github.com/user-attachments/assets/0476cf5c-b73f-4bb8-8aa8-510a5ce73c7a)
+
     * Select the branch as master or main and the path as: /azure_pipeline.yaml. Click on the continue button
     * Replace the input parameter values for the mandatory fields in azure_pipeline.yaml to your needs:
         ```
