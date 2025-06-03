@@ -69,7 +69,7 @@ pipeline_templates/
 
       ![image](https://github.com/user-attachments/assets/0476cf5c-b73f-4bb8-8aa8-510a5ce73c7a)
 
-    * Select the branch as master or main and the path as: /azure_pipeline.yaml. Click on the continue button
+    * เลือก Branch master หรือ main and the path as: /azure_pipeline.yaml. Click on the continue button
     * Replace the input parameter values for the mandatory fields in azure_pipeline.yaml to your needs:
         ```
         serviceConnectionName: Azure DevOps Service Connection name.
