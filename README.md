@@ -56,7 +56,7 @@ pipeline_templates/
     * Copy ตัวอย่าง Pipeline ที่อ้างอิง Pipeline Template
         - [azure_pipeline.yaml](./azure_pipeline.yaml) File
     
-![image](https://github.com/user-attachments/assets/be712b28-c81e-4827-85b5-6e3615e01021)
+    ![image](https://github.com/user-attachments/assets/66bfd608-da28-4f9f-adff-68feccb27c88)
 
 2. **Setup a New pipeline in your Azure DevOps**
     * Go to Pipelines, and then select New pipeline.
