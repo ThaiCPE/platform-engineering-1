@@ -10,36 +10,36 @@ Pattern นี้สามารถขยายเพิ่มเติมได
 - AWS Toolkit สำหรับ Azure DevOps ที่ติดตั้งใน Azure DevOps หรือบน On-premises Azure DevOps Server
 - App ที่จะ Deploy (มีตัวอย่าง Web App ใน Guide นี้)
 
-## Get Started
+## เริ่มต้นใช้งาน
 
-## Target Architecture
+## Architecture เป้าหมาย
 ![Target Architecture](./docs/img/Architecture.png "Target Architecture")
-## About the pipeline template
-The pipline template composes of 3 templates:
+## เกี่ยวกับ Pipeline Template
+Pipline Template มีด้วยกัน 3 Template:
 
-1. Main Template - [main_template.yaml](./pipeline_templates/main_template.yaml)
+1. Template หลัก - [main_template.yaml](./pipeline_templates/main_template.yaml)
 
-    This template acts as a central template referring other job templates. It also has a stage for initializing variables and checking existence of AWS resources (Amazon EKS Cluster and ECR repository) at the beginning of the pipeline execution.
+    Template นี้ ทำหน้าที่เป็น Template กลางที่อ้างอิงไปยัง Template อื่นๆ นอกจากนี้ยังมี Stage สำหรับการกำหนดค่าตัวแปร และตรวจสอบการมีอยู่ของ AWS resource (Amazon EKS Cluster และ ECR Repo) ตั้งแต่เริ่ม Excute Pipeline
 
-    >This is the only template which you may refer when consuming the pipeline template in this solution.
+    >นี่เป็น template เดียว ที่อาจใช้อ้างอิงเมื่อใช้ Pipeline Template ใน Solution นี้
 
 2. CI Job Template - [ci_template.yaml](./pipeline_templates/job_templates/ci_template.yaml)
 
-    This is a job template used by the `main_template.yaml` for:
-    - Building Docker Image
-    - Pushing Docker Image
-    - Building Helm Chart
-    - Pushing Helm
+    คือ Template ที่ถูกเรียกใช้โดย `main_template.yaml` สำหรับ:
+    - Build Docker Image
+    - Push Docker Image
+    - Build Helm Chart
+    - Push Helm
 
 3. CD Job Template - [cd_template.yaml](./pipeline_templates/job_templates/cd_template.yaml)
 
-    This is another job template used by `main_template.yaml`. It is dependent on successful execution of `CI` stage and `Init` stage in `main_template.yaml`. 
+    คือ Template อีกตัวนึงที่ถูกเรียกใช้โดย `main_template.yaml` ซึ่งขึ้นอยู่กับการดำเนินการที่สำเร็จของ Stage `CI` และ `Init` ใน `main_template.yaml` 
     
-    It is used for:
-    - Deploying the Helm Chart
-    - Showing deployment output
+    ใช้สำหรับ:
+    - Deploy Helm Chart
+    - แสดงผลลัพธ์การ Deploy
 
-These templates are organized in directory structure as below:
+Template เหล่านี้ถูกจัดอยู่ใน Directory โครงสร้างแบบนี้:
 ```
 pipeline_templates/
 ├─ jobs_templates/
